@@ -14,7 +14,7 @@
 #
 #    1.0 / 2.0 => 0.5
 #
-
+require "spec_helper"
 require "temperature"
 
 describe "temperature conversion functions" do

@@ -16,7 +16,7 @@
 # See <http://en.wikipedia.org/wiki/Pig_latin> for more details.
 #
 #
-
+require "spec_helper"
 require "pig_latin"
 
 describe "#translate" do

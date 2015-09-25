@@ -5,7 +5,7 @@
 # * yield
 # * loops
 #
-
+require "spec_helper"
 require "silly_blocks"
 
 describe "some silly block functions" do
@@ -16,7 +16,7 @@ describe "some silly block functions" do
         "hello"
       end
       result.should == "olleh"
-    end
+	end
 
     it "reverses each word in the string returned by the default block" do
       result = reverser do

@@ -113,6 +113,7 @@
 #       "Hello, #{who}!"
 #     end
 #
+require "spec_helper"
 require "hello"
 
 describe "the hello function" do

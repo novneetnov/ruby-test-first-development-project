@@ -87,7 +87,7 @@
 #     def greeting(who = nil)
 #
 #
-
+require "spec_helper"
 require "friend"
 
 describe Friend do

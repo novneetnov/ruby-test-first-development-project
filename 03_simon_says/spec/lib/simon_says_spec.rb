@@ -10,7 +10,7 @@
 #
 # When you make the second `repeat` test pass, you might break the **first**
 #
-
+require "spec_helper"
 require "simon_says"
 
 describe "Simon says" do
